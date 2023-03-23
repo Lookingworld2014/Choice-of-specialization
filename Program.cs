@@ -8,14 +8,14 @@ PrintArray(arr);
 
 RemakeArray(arr);
 
-int[] array = PrintRemake();
+PrintRemake(arr);
 
 int[] GetArray()
 {
     int[] arr = new int[3];
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = new Random().Next(1, 10);
+        arr[i] = new Random().Next(100, 10000);
 
     }
     return arr;
@@ -27,7 +27,7 @@ void PrintArray(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write(arr[i] + " ");
+        Console.WriteLine(arr[i] + " ");
     }
 
 
@@ -36,25 +36,26 @@ void PrintArray(int[] arr)
 int [] RemakeArray(int[] arr)
 {
     
-array = new int [3];
+arr = new int [3];
 
 int count = 0;
 
 for (int i = 0; i < arr.Length; i++)
 {
-    if(array[i] < 3)
+    if(arr[i] < 3)
     count++;
 
 }
-return array;
+return arr;
 }
 
-void PrintRemake(int[]array)
+void PrintRemake(int[]arr)
 
 {
-for (int i = 0; i < array.Length; i++)
+for (int i = 0; i < arr.Length; i++)
     {
-        Console.WriteLine(array[i] + " ");
+        Console.WriteLine();
+        Console.WriteLine(arr[i] + " ");
     }
 
 }
