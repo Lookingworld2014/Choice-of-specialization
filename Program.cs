@@ -2,60 +2,55 @@
 
 
 
-int[] arr = GetArray();
-
+string[] arr = GetArray();
 PrintArray(arr);
+string[] remakeArr = RemakeArray(arr);
+PrintRemake(remakeArr);
 
-RemakeArray(arr);
-
-PrintRemake(arr);
-
-int[] GetArray()
+string[] GetArray()
 {
-    int[] arr = new int[3];
-    for (int i = 0; i < arr.Length; i++)
-    {
-        arr[i] = new Random().Next(100, 10000);
-
-    }
+    string[] arr = new string[5]; 
+    arr[0] = "she";
+    arr[1] = "he";
+    arr[2] = "snake";
+    arr[3] = "bear";
+    arr[4] = "cat";
     return arr;
-
 }
 
-void PrintArray(int[] arr)
-
+void PrintArray(string[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
         Console.WriteLine(arr[i] + " ");
     }
-
-
 }
 
-int [] RemakeArray(int[] arr)
+string[] RemakeArray(string[] arr)
 {
-    
-arr = new int [3];
-
-int count = 0;
-
-for (int i = 0; i < arr.Length; i++)
-{
-    if(arr[i] < 3)
-    count++;
-
-}
-return arr;
-}
-
-void PrintRemake(int[]arr)
-
-{
-for (int i = 0; i < arr.Length; i++)
+    int count = 0;
+    for (int i = 0; i < arr.Length; i++)
     {
-        Console.WriteLine();
+        if (arr[i].Length <= 3) 
+            count++;
+    }
+    string[] remakeArr = new string[count]; 
+    int j = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i].Length <= 3)
+        {
+            remakeArr[j] = arr[i]; 
+            j++;
+        }
+    }
+    return remakeArr;
+}
+
+void PrintRemake(string[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
         Console.WriteLine(arr[i] + " ");
     }
-
 }

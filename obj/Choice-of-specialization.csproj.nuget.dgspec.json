@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Настя\\Desktop\\ДЗ\\Choice-of-specialization\\Choice-of-specialization.csproj": {}
+    "C:\\Users\\Настя\\Desktop\\ДЗ\\ррпроа\\Choice-of-specialization\\Choice-of-specialization.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Настя\\Desktop\\ДЗ\\Choice-of-specialization\\Choice-of-specialization.csproj": {
+    "C:\\Users\\Настя\\Desktop\\ДЗ\\ррпроа\\Choice-of-specialization\\Choice-of-specialization.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Настя\\Desktop\\ДЗ\\Choice-of-specialization\\Choice-of-specialization.csproj",
+        "projectUniqueName": "C:\\Users\\Настя\\Desktop\\ДЗ\\ррпроа\\Choice-of-specialization\\Choice-of-specialization.csproj",
         "projectName": "Choice-of-specialization",
-        "projectPath": "C:\\Users\\Настя\\Desktop\\ДЗ\\Choice-of-specialization\\Choice-of-specialization.csproj",
+        "projectPath": "C:\\Users\\Настя\\Desktop\\ДЗ\\ррпроа\\Choice-of-specialization\\Choice-of-specialization.csproj",
         "packagesPath": "C:\\Users\\Настя\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Настя\\Desktop\\ДЗ\\Choice-of-specialization\\obj\\",
+        "outputPath": "C:\\Users\\Настя\\Desktop\\ДЗ\\ррпроа\\Choice-of-specialization\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Настя\\AppData\\Roaming\\NuGet\\NuGet.Config"
